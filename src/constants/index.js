@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import wearworld from "../assets/projects/wearworld.jpg";
+import netflix from "../assets/projects/netflix.jpg";
+import akilanportfolio from "../assets/projects/akilan-portfolio.jpg";
+import geminiclone from "../assets/projects/gemini-clone.jpg";
+import weatherapp from "../assets/projects/weatherapp.jpg";
+
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, Redux and TailwindCSS, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,32 +42,44 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "E-Commerce Website (WearWorld)",
+    image: wearworld,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React.js", "Node.js", "Redux", "Tailwindcss"],
+     url: "https://wearworld.netlify.app"
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Gemini-Clone",
+    image: geminiclone,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A clone of chat application Gemini, and real-time messaging.",
+    technologies: ["HTML", "CSS", "React", "Redux", "Tailwindcss"],
+    url: "https://gemini-clone-akilan.netlify.app"
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: akilanportfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwindcss"],
+    url: "https://Akilan-portfolio-project.netlify.app"
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Netflix-Clone",
+    image: netflix,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Just a clone of frontend Netflix website",
+    technologies: ["React", "Tailwindcss"],
+    url:"https://aesthetic-sherbet-0bdbe2.netlify.app"
+  },
+  {
+    title: "Weather App",
+    image: weatherapp,
+    description:
+      "A weather application that displays the current weather and forecast for a given location.",
+    technologies: ['html', 'css', 'javascript'],
+    url:"https://stromsnap.netlify.app"
   },
 ];
 

@@ -38,6 +38,9 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <a className="text-blue-500 shadow-md" href={project.url} target="_blank" rel="noopener noreferrer">
+            Click here
+          </a><br />
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
